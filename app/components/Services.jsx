@@ -42,7 +42,7 @@ const Services = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ delay: 0.9, duration: 0.6 }}
-        className='grid grid-cols-4 gap-6 my-10'
+        className='grid grid-cols-auto gap-6 my-10'
       >
         {serviceData.map(({ icon, title, description, link }, index) => (
           <motion.div
