@@ -18,7 +18,7 @@ const Header = () => {
       className='flex 
   justify-between 
   w-full 
-  px-[16%]
+  px-[8%] sm:px-[16%]
   items-start 
   py-10 
   mt-[130px]

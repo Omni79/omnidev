@@ -7,7 +7,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const Work = () => {
   return (
-    <div id='work' className='w-full px-[16%] py-10 scroll-mt-20'>
+    <div id='work' className='w-full px-[8%] sm:px-[16%] py-10 scroll-mt-20'>
       <div className='grid grid-cols-1 lg:grid-cols-2  my-10 gap-x-16 gap-y-24'>
         {workData.map((project, index) => (
           <div key={index}>
