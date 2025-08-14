@@ -1,67 +1,73 @@
 import { assets } from "@/assets/assets";
 import Image from "next/image";
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import {
+  faGitAlt,
+  faGithub,
+  faLinkedin,
+  faXTwitter,
+} from "@fortawesome/free-brands-svg-icons";
+
 import { motion } from "motion/react";
-import { delay } from "motion";
 
 const Header = () => {
   return (
-    <div className='w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-2'>
-      <motion.div
-        initial={{ scale: 0 }}
-        whileInView={{ scale: 1 }}
-        transition={{ duration: 0.8, type: "spring", stiffness: 100 }}
-      >
+    <div
+      className='flex 
+  justify-between 
+  w-full 
+  px-[16%]
+  items-start 
+  py-10 
+  mt-[130px]
+  scroll-mt-20'
+    >
+      {/* Left */}
+      <div className='flex flex-col justify-start'>
+        <h3 className='flex gap-2 font-semibold text-lg'>Omoyele Shedrach</h3>
+        <h1 className='mb-4'>— React Developer</h1>
+        <div className='flex gap-2 mb-10'>
+          <a
+            href=''
+            className='border rounded-full  w-9 aspect-square flex items-center justify-center'
+          >
+            <FontAwesomeIcon icon={faLinkedin} />
+          </a>
+          <a
+            href=''
+            className=' border rounded-full  w-9 aspect-square flex items-center justify-center'
+          >
+            <FontAwesomeIcon icon={faGithub} />
+          </a>
+          <a
+            href=''
+            className=' border rounded-full  w-9 aspect-square flex items-center justify-center'
+          >
+            <FontAwesomeIcon icon={faXTwitter} />
+          </a>
+        </div>
+        <p className='max-w-[500px] leading-relaxed mb-10'>
+          I'm a Developer based in the Nigeria, involved in the design process
+          from strategy, user experience design, interface design, prototyping,
+          branding and implementation.
+        </p>
+
+        <a
+          href=''
+          className='flex flex-col w-max gap-1 text-lg font-semibold mb-12'
+        >
+          Let's work together
+          <div className='w-full h-[0.5px] bg-white'></div>
+        </a>
+
+        <p>Some of the projects I've worked on: </p>
+      </div>
+
+      {/* Right */}
+      <div>
         <Image src={assets.profile_img} alt='' className='rounded-full w-32' />
-      </motion.div>
-      <motion.h3
-        initial={{ y: -20, opacity: 0 }}
-        whileInView={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.6, delay: 0.3 }}
-        className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo'
-      >
-        Hi! I'm Omoyele Shedrach
-        <Image src={assets.hand_icon} alt='' className='w-6' />
-      </motion.h3>
-      <motion.h1
-        initial={{ y: -30, opacity: 0 }}
-        whileInView={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.8, delay: 0.5 }}
-        className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'
-      >
-        frontend web developer based in Lagos.
-      </motion.h1>
-      <motion.p
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        transition={{ duration: 0.6, delay: 0.7 }}
-        className='max-w-2xl mx-auto font-Ovo'
-      >
-        I am a frontend developer from Lagos, Nigeria with 10 years of
-        experience in multiple companies like Tesla, Microsoft and Apple.
-      </motion.p>
-      <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
-        <motion.a
-          initial={{ y: 30, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.6, delay: 1 }}
-          href='#contact'
-          className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 dark:bg-transparent'
-        >
-          contact me
-          <Image src={assets.right_arrow_white} alt='' className='w-4' />
-        </motion.a>
-        <motion.a
-          initial={{ y: 30, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.6, delay: 1.2 }}
-          href='/sample-resume.pdf'
-          download
-          className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black'
-        >
-          contact me
-          <Image src={assets.download_icon} alt='' className='w-4' />
-        </motion.a>
       </div>
     </div>
   );
