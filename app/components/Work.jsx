@@ -1,12 +1,11 @@
-import { assets, workData } from "@/assets/assets";
+import { workData } from "@/assets/assets";
 import React from "react";
-import Image from "next/image";
-import { color, motion } from "motion/react";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
-import { faGitAlt, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
-const Work = ({ isDarkMode }) => {
+const Work = () => {
   return (
     <div id='work' className='w-full px-[16%] py-10 scroll-mt-20'>
       <div className='grid grid-cols-1 lg:grid-cols-2  my-10 gap-x-16 gap-y-24'>

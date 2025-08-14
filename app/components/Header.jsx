@@ -10,7 +10,7 @@ import {
   faXTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 
-import { motion } from "motion/react";
+
 
 const Header = () => {
   return (

@@ -1,6 +1,4 @@
 import React from "react";
-import Image from "next/image";
-import { assets } from "@/assets/assets";
 
 const Footer = ({ isDarkMode }) => {
   return (
@@ -19,15 +17,13 @@ const Footer = ({ isDarkMode }) => {
           and prototyping. In essence, I thrive on collaborating with passionate
           startups and companies on challenging projects.
         </p>
-        <div className="flex gap-2"><p>Available for select freelance projects.</p>
-        <a
-              href=''
-              className='flex flex-col w-max gap-1 text-lg'
-            >
-              Get in touch
-              <div className='w-full h-[0.5px] bg-white'></div>
-            </a></div>
-        
+        <div className='flex gap-2'>
+          <p>Available for select freelance projects.</p>
+          <a href='' className='flex flex-col w-max gap-1 text-lg'>
+            Get in touch
+            <div className='w-full h-[0.5px] bg-white'></div>
+          </a>
+        </div>
       </div>
       <div className='flex flex-col gap-2'>
         <a href='' className='flex flex-col w-max gap-1 text-lg font-semibold'>
