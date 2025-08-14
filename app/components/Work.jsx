@@ -15,9 +15,11 @@ const Work = () => {
               className='aspect-square mb-4 bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group'
               style={{ backgroundImage: `url(${project.bgImage})` }}
             >
-              <div className='absolute hidden flex-col gap-2 group-hover:flex transition right-10 bottom-10'>
+              <div className='absolute gap-2 right-10 bottom-10 transition flex lg:hidden lg:group-hover:flex '>
                 <a
-                  href=''
+                  href={project.live}
+                  target='_blank'
+                  rel='noopener noreferrer'
                   className='border rounded-full backgroundSecondary w-9 aspect-square flex items-center justify-center'
                 >
                   <FontAwesomeIcon
@@ -26,7 +28,9 @@ const Work = () => {
                   />
                 </a>
                 <a
-                  href=''
+                  href={project.git}
+                  target='_blank'
+                  rel='noopener noreferrer'
                   className=' border rounded-full backgroundSecondary w-9 aspect-square flex items-center justify-center'
                 >
                   <FontAwesomeIcon icon={faGithub} style={{ color: "#000" }} />

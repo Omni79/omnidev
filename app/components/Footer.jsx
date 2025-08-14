@@ -17,9 +17,14 @@ const Footer = ({ isDarkMode }) => {
           and prototyping. In essence, I thrive on collaborating with passionate
           startups and companies on challenging projects.
         </p>
-        <div className='flex gap-2'>
+        <div className='flex flex-col md:flex-row gap-2'>
           <p>Available for select freelance projects.</p>
-          <a href='' className='flex flex-col w-max gap-1 text-lg'>
+          <a
+            href='mailto:shedrachomoyele79@gmail.com'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='flex flex-col w-max gap-1 text-lg'
+          >
             Get in touch
             <div className='w-full h-[0.5px] bg-white'></div>
           </a>

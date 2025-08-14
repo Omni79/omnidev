@@ -78,24 +78,53 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'CarRental',
+        description: 'Web App/MERN',
         bgImage: '/work-1.png',
+        live: 'https://car-rental-ruby-three.vercel.app/',
+        git: 'https://github.com/Omni79/CarRental-fullstack.git'
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: 'QuickBlog',
+        description: 'Web App/MERN',
         bgImage: '/work-2.png',
+        live: 'https://quick-blog-lac-beta.vercel.app/',
+        git: 'https://github.com/Omni79/QuickBlog.git'
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'Forever - E-commerce App',
+        description: 'Web App/MERN',
         bgImage: '/work-3.png',
+        live: '',
+        git: ''
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'Morphs - Creative Company',
+        description: 'Landing Page, Next.js',
         bgImage: '/work-4.png',
+        live: 'https://morphs.vercel.app/',
+        git: 'https://github.com/Omni79/Morphs.git'
+    },
+    {
+        title: 'Real Estate',
+        description: 'Landing Page, Next.js',
+        bgImage: '/work-4.png',
+        live: '',
+        git: ''
+    },
+    {
+        title: 'SaaS Landing Page',
+        description: 'Landing Page, Next.js',
+        bgImage: '/work-4.png',
+        live: '',
+        git: ''
+    },
+    {
+        title: 'Portfolio',
+        description: 'Landing Page, Next.js',
+        bgImage: '/work-4.png',
+        live: 'https://omnidev-blush.vercel.app/',
+        git: 'https://github.com/Omni79/omnidev.git'
     },
 ]
 

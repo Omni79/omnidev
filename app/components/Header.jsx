@@ -10,8 +10,6 @@ import {
   faXTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 
-
-
 const Header = () => {
   return (
     <div
@@ -21,7 +19,7 @@ const Header = () => {
   px-[8%] sm:px-[16%]
   items-start 
   py-10 
-  mt-[130px]
+  mt-[60px] sm:mt-[130px] 
   scroll-mt-20'
     >
       {/* Left */}
@@ -31,31 +29,43 @@ const Header = () => {
         <div className='flex gap-2 mb-10'>
           <a
             href=''
+            target='_blank'
+            rel='noopener noreferrer'
             className='border rounded-full  w-9 aspect-square flex items-center justify-center'
           >
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
           <a
-            href=''
+            href='https://github.com/Omni79'
+            target='_blank'
+            rel='noopener noreferrer'
             className=' border rounded-full  w-9 aspect-square flex items-center justify-center'
           >
             <FontAwesomeIcon icon={faGithub} />
           </a>
           <a
             href=''
+            target='_blank'
+            rel='noopener noreferrer'
             className=' border rounded-full  w-9 aspect-square flex items-center justify-center'
           >
             <FontAwesomeIcon icon={faXTwitter} />
           </a>
         </div>
         <p className='max-w-[500px] leading-relaxed mb-10'>
-          I'm a Developer based in the Nigeria, involved in the design process
-          from strategy, user experience design, interface design, prototyping,
-          branding and implementation.
+          I'm a full-stack developer based in Lagos, Nigeria. I enjoy building
+          sites & apps. My focus is React(Next.js).
+        </p>
+
+        <p className='max-w-[500px] leading-relaxed mb-10'>
+          MongoDB | Express | React.js | Next.js | Figma | VS Code | Vercel |
+          Webflow
         </p>
 
         <a
-          href=''
+          href='mailto:shedrachomoyele79@gmail.com'
+          target='_blank'
+          rel='noopener noreferrer'
           className='flex flex-col w-max gap-1 text-lg font-semibold mb-12'
         >
           Let's work together
