@@ -1,5 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { icon } from "@fortawesome/fontawesome-svg-core";
+import { icons } from "lucide-react";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -9,6 +11,9 @@ const inter = Inter({
 export const metadata = {
   title: "OMNIDEV - Portfolio website",
   description: "",
+  icons: {
+    icon: "/favicon.png",
+  }
 };
 
 export default function RootLayout({ children }) {

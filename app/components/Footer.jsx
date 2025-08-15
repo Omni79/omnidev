@@ -5,17 +5,18 @@ const Footer = ({ isDarkMode }) => {
     <div className='flex flex-col gap-12 lg:gap-4 justify-around w-full h-[120vh] lg:h-[100vh] px-[8%] sm:px-[16%] items-start py-10 scroll-mt-20'>
       <div className='flex flex-col gap-4 max-w-3xl leading-relaxed'>
         <p>
-          Over the last 2 years I've had the pleasure of collaborating
-          with startups, small to large companies, design studios and other
+          Over the last 2 years I've had the pleasure of collaborating with
+          startups, small to large companies, design studios and other
           creatives. Working side by side to create, launch and refine
           meaningful and goal oriented digital products and experiences.
         </p>
 
         <p>
-          I take pleasure in developing clear, effective, and aesthetically
-          pleasing solutions for complex problems through research, iteration,
-          and prototyping. In essence, I thrive on collaborating with passionate
-          startups and companies on challenging projects.
+          I enjoy building clear, efficient, and visually engaging web
+          applications with React. By combining research, clean code practices,
+          debugging, and testing, I create solutions that bring complex ideas to
+          life. I thrive on collaborating with passionate startups and companies
+          to deliver scalable, user-focused products.
         </p>
         <div className='flex flex-col md:flex-row gap-2'>
           <p>Available for select freelance projects.</p>

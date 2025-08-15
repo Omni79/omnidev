@@ -18,8 +18,8 @@ const Header = () => {
   w-full 
   px-[8%] sm:px-[16%]
   items-start 
-  py-10 
-  mt-[60px] sm:mt-[130px] 
+  py-6 sm:py-10
+  mt-[30px] sm:mt-[130px] 
   scroll-mt-20'
     >
       {/* Left */}
