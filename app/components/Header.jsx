@@ -18,14 +18,14 @@ const Header = () => {
   w-full 
   px-[8%] sm:px-[16%]
   items-start 
-  py-6 sm:py-10
-  mt-[30px] sm:mt-[130px] 
+  py-4 sm:py-10
+  mt-[60px] sm:mt-[130px] 
   scroll-mt-20'
     >
       {/* Left */}
       <div className='flex flex-col justify-start'>
         <h3 className='flex gap-2 font-semibold text-lg'>Omoyele Shedrach</h3>
-        <h1 className='mb-4'>— React Developer</h1>
+        <h1 className='mb-24 sm:mb-4'>— React Developer</h1>
         
         <p className='max-w-[500px] leading-relaxed mb-10'>
           I'm a full-stack developer based in Lagos, Nigeria. I enjoy building
