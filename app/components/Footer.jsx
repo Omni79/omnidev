@@ -5,7 +5,7 @@ const Footer = ({ isDarkMode }) => {
     <div className='flex flex-col gap-12 lg:gap-4 justify-around w-full h-[120vh] lg:h-[100vh] px-[8%] sm:px-[16%] items-start py-10 scroll-mt-20'>
       <div className='flex flex-col gap-4 max-w-3xl leading-relaxed'>
         <p>
-          Over the last fifteen years I've had the pleasure of collaborating
+          Over the last 2 years I've had the pleasure of collaborating
           with startups, small to large companies, design studios and other
           creatives. Working side by side to create, launch and refine
           meaningful and goal oriented digital products and experiences.

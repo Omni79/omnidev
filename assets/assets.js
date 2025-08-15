@@ -36,6 +36,8 @@ import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 
+
+
 export const assets = {
     user_image,
     code_icon,
@@ -108,21 +110,21 @@ export const workData = [
     {
         title: 'Real Estate',
         description: 'Landing Page, Next.js',
-        bgImage: '/work-4.png',
+        bgImage: '/work-5.png',
         live: '',
         git: ''
     },
     {
         title: 'SaaS Landing Page',
         description: 'Landing Page, Next.js',
-        bgImage: '/work-4.png',
+        bgImage: '/work-6.png',
         live: '',
         git: ''
     },
     {
         title: 'Portfolio',
         description: 'Landing Page, Next.js',
-        bgImage: '/work-4.png',
+        bgImage: '/work-7.png',
         live: 'https://omnidev-blush.vercel.app/',
         git: 'https://github.com/Omni79/omnidev.git'
     },

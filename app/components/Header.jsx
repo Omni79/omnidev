@@ -26,7 +26,27 @@ const Header = () => {
       <div className='flex flex-col justify-start'>
         <h3 className='flex gap-2 font-semibold text-lg'>Omoyele Shedrach</h3>
         <h1 className='mb-4'>— React Developer</h1>
-        <div className='flex gap-2 mb-10'>
+        
+        <p className='max-w-[500px] leading-relaxed mb-10'>
+          I'm a full-stack developer based in Lagos, Nigeria. I enjoy building
+          sites & apps. My focus is React(Next.js).
+        </p>
+
+        <p className='max-w-[500px] leading-relaxed mb-10'>
+          MongoDB | Express | React.js | Next.js | Figma | VS Code | Vercel |
+          Webflow
+        </p>
+
+        <a
+          href='mailto:shedrachomoyele79@gmail.com'
+          target='_blank'
+          rel='noopener noreferrer'
+          className='flex flex-col w-max gap-1 text-lg font-semibold mb-8'
+        >
+          Let's work together
+          <div className='w-full h-[0.5px] bg-white'></div>
+        </a>
+        <div className='flex gap-4 mb-12'>
           <a
             href=''
             target='_blank'
@@ -52,25 +72,6 @@ const Header = () => {
             <FontAwesomeIcon icon={faXTwitter} />
           </a>
         </div>
-        <p className='max-w-[500px] leading-relaxed mb-10'>
-          I'm a full-stack developer based in Lagos, Nigeria. I enjoy building
-          sites & apps. My focus is React(Next.js).
-        </p>
-
-        <p className='max-w-[500px] leading-relaxed mb-10'>
-          MongoDB | Express | React.js | Next.js | Figma | VS Code | Vercel |
-          Webflow
-        </p>
-
-        <a
-          href='mailto:shedrachomoyele79@gmail.com'
-          target='_blank'
-          rel='noopener noreferrer'
-          className='flex flex-col w-max gap-1 text-lg font-semibold mb-12'
-        >
-          Let's work together
-          <div className='w-full h-[0.5px] bg-white'></div>
-        </a>
 
         <p>Some of the projects I've worked on: </p>
       </div>
