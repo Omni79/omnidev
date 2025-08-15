@@ -25,7 +25,7 @@ const Header = () => {
       {/* Left */}
       <div className='flex flex-col justify-start'>
         <h3 className='flex gap-2 font-semibold text-lg'>Omoyele Shedrach</h3>
-        <h1 className='mb-24 sm:mb-4'>— React Developer</h1>
+        <h1 className='mb-16 sm:mb-4'>— React Developer</h1>
         
         <p className='max-w-[500px] leading-relaxed mb-10'>
           I'm a full-stack developer based in Lagos, Nigeria. I enjoy building
