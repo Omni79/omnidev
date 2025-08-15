@@ -33,7 +33,7 @@ const Header = () => {
         </p>
 
         <p className='max-w-[500px] leading-relaxed mb-10'>
-          MongoDB | Express | React.js | Next.js | Figma | VS Code | Vercel |
+          MongoDB | Express.js | React.js | Node.js | Next.js | Figma | VS Code | Vercel |
           Webflow
         </p>
 
