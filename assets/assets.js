@@ -109,8 +109,8 @@ export const workData = [
     title: "Real Estate",
     description: "Landing Page, Next.js",
     bgImage: "/work-5.png",
-    live: "",
-    git: "",
+    live: "https://real-estate-rose-nu.vercel.app/",
+    git: "https://github.com/Omni79/real-estate#",
   },
   {
     title: "SaaS Landing Page",
