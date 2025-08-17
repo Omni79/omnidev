@@ -29,7 +29,7 @@ const Header = () => {
         
         <p className='max-w-[500px] leading-relaxed mb-10'>
           I'm a full-stack developer based in Lagos, Nigeria. I enjoy building
-          sites & apps. My focus is React(Next.js).
+          sites & apps. My focus is React.js and Next.js.
         </p>
 
         <p className='max-w-[500px] leading-relaxed mb-10'>
