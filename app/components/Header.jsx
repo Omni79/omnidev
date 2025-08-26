@@ -41,7 +41,7 @@ const Header = () => {
           href='mailto:shedrachomoyele79@gmail.com'
           target='_blank'
           rel='noopener noreferrer'
-          className='flex flex-col w-max gap-1 text-lg font-semibold mb-8'
+          className='flex flex-col w-max gap-1 text-lg font-semibold mb-4'
         >
           Let's work together
           <div className='w-full h-[0.5px] bg-white'></div>
