@@ -28,8 +28,8 @@ const Header = () => {
         <h1 className='mb-16 sm:mb-4'>— React Developer</h1>
         
         <p className='max-w-[500px] leading-relaxed mb-10'>
-          I'm a full-stack developer based in Lagos, Nigeria. I enjoy building
-          sites & apps. My focus is React.js and Next.js.
+          I’m a developer focused on MERN/Next.js based in Lagos, Nigeria. I enjoy building
+          sites & apps. 
         </p>
 
         <p className='max-w-[500px] leading-relaxed mb-10'>
