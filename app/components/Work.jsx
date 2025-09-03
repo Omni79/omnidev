@@ -18,7 +18,7 @@ const Work = () => {
             className='flex flex-col-reverse xl:flex-row justify-between gap-8 p-8 bg-primary/10 border border-white/10 h-auto xl:h-[500px]'
           >
             {/* Left Side - Text */}
-            <CardContent className='flex flex-col p-0 xl:w-[50%] justify-between'>
+            <CardContent className='flex flex-col p-0 xl:pt-10 xl:w-[50%] justify-between'>
               <div>
                 <h2 className='text-2xl md:text-3xl font-semibold text-white/90'>
                   {project.title}
@@ -50,6 +50,7 @@ const Work = () => {
                 >
                   Live
                 </a>
+
                 <a
                   href={project.git}
                   target='_blank'

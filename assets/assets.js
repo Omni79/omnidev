@@ -80,68 +80,56 @@ export const workData = [
   {
     title: "CarRental",
     description:
-      "Yesterday, I was selected as a junior backend developer without having a degree. I just passed high school, and I want to thank you because I've learned many things in web development from you. I have deep respect for you because you are changing people's lives. I know that even though you share all this amazing knowledge on YouTube for free, you may not be getting much in return, but one thing is for sure - God will reward you.",
+      "Full-stack Car Rental app built with MERN and deployed on Vercel. Features include advanced filtering options, optimized image processing using cloudinary and an admin dashboard for seamless management.",
     bgImage: "/work-1.png",
     live: "https://car-rental-ruby-three.vercel.app/",
     git: "https://github.com/Omni79/CarRental-fullstack.git",
-    stack: [
-      "ReactJS", "mongoDB", "NodeJS"
-    ]
+    stack: ["MERN", "TailwindCSS"],
   },
   {
     title: "QuickBlog",
     description:
-      "Yesterday, I was selected as a junior backend developer without having a degree. I just passed high school, and I want to thank you because I've learned many things in web development from you. I have deep respect for you because you are changing people's lives. I know that even though you share all this amazing knowledge on YouTube for free, you may not be getting much in return, but one thing is for sure - God will reward you.",
+      "AI-powered Blog App with Google Gemini. Create, manage, and publish posts seamlessly with a modern, responsive design.",
     bgImage: "/work-2.png",
     live: "https://quick-blog-lac-beta.vercel.app/",
     git: "https://github.com/Omni79/QuickBlog.git",
-    stack: [
-      "ReactJS", "mongoDB", "NodeJS"
-    ]
+    stack: ["MERN", "Gemini-AI", "TailwindCSS"],
   },
   {
     title: "Forever - E-commerce App",
     description:
-      "Yesterday, I was selected as a junior backend developer without having a degree. I just passed high school, and I want to thank you because I've learned many things in web development from you. I have deep respect for you because you are changing people's lives. I know that even though you share all this amazing knowledge on YouTube for free, you may not be getting much in return, but one thing is for sure - God will reward you.",
+      "Forever E-Commerce App built with the MERN stack for a solo seller, featuring advanced search and category filtering, Stripe payments, and Cloudinary media. Includes a seller dashboard with interactive order management and product upload pages.",
     bgImage: "/work-3.png",
     live: "",
     git: "",
-    stack: [
-      "ReactJS", "mongoDB", "NodeJS"
-    ]
+    stack: ["MERN", "TailwindCSS", "Stripe", "E-commerce"],
   },
   {
     title: "Morphs - Creative Company",
     description:
-      "Yesterday, I was selected as a junior backend developer without having a degree. I just passed high school, and I want to thank you because I've learned many things in web development from you. I have deep respect for you because you are changing people's lives. I know that even though you share all this amazing knowledge on YouTube for free, you may not be getting much in return, but one thing is for sure - God will reward you.",
+      "Landing page for Morphs, a creative company. Built with Next.js and TailwindCSS, fully responsive and deployed on Vercel.",
     bgImage: "/work-4.png",
     live: "https://morphs.vercel.app/",
     git: "https://github.com/Omni79/Morphs.git",
-    stack: [
-      "ReactJS", "mongoDB", "NodeJS"
-    ]
+    stack: ["NextJS", "TailwindCSS", "Vercel"],
   },
   {
     title: "Real Estate",
     description:
-      "Yesterday, I was selected as a junior backend developer without having a degree. I just passed high school, and I want to thank you because I've learned many things in web development from you. I have deep respect for you because you are changing people's lives. I know that even though you share all this amazing knowledge on YouTube for free, you may not be getting much in return, but one thing is for sure - God will reward you.",
+      "Real estate landing page built with Next.js, featuring a fully responsive design and a working contact form for direct inquiries.",
     bgImage: "/work-5.png",
     live: "https://real-estate-rose-nu.vercel.app/",
     git: "https://github.com/Omni79/real-estate#",
-    stack: [
-      "ReactJS", "mongoDB", "NodeJS"
-    ]
+    stack: ["NextJS", "TailwindCSS", "Framer", "Vercel"],
   },
   {
     title: "SaaS Landing Page",
     description:
-      "Yesterday, I was selected as a junior backend developer without having a degree. I just passed high school, and I want to thank you because I've learned many things in web development from you. I have deep respect for you because you are changing people's lives. I know that even though you share all this amazing knowledge on YouTube for free, you may not be getting much in return, but one thing is for sure - God will reward you.s",
+      "SaaS landing page built with Next.js and TailwindCSS, featuring smooth animated sections and a fully responsive design.",
     bgImage: "/work-6.png",
     live: "",
     git: "",
-    stack: [
-      "ReactJS", "mongoDB", "NodeJS"
-    ]
+    stack: ["NextJS", "TailwindCSS", "Framer", "Vercel"],
   },
 ];
 
