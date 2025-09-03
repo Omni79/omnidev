@@ -15,7 +15,7 @@ const Work = () => {
         {workData.map((project, index) => (
           <Card
             key={index}
-            className='flex flex-col-reverse xl:flex-row justify-between gap-8 p-8 bg-primary/10 border border-white/10 h-auto xl:h-[500px]'
+            className='flex flex-col-reverse xl:flex-row justify-between gap-8 p-4 xl:p-8 bg-primary/10 border border-white/10 h-auto xl:h-[500px]'
           >
             {/* Left Side - Text */}
             <CardContent className='flex flex-col p-0 xl:pt-10 xl:w-[50%] justify-between'>

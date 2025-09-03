@@ -131,6 +131,34 @@ export const workData = [
     git: "",
     stack: ["NextJS", "TailwindCSS", "Framer", "Vercel"],
   },
+  {
+    title: "PROAV - Audio and Visual Production Company",
+    description:
+      "Landing page with a sleek modern design built for a production company. Features include responsive design",
+    bgImage: "/work-7.png",
+    live: "https://jeh-21a4f7.webflow.io/",
+    git: "",
+    stack: ["Webflow"],
+  },
+  {
+    title: "Jeh Production",
+    description:
+      "Landing page with a sleek modern design built for a video production company. Features include responsive design",
+    bgImage: "/work-8.png",
+    live: "https://jeh-21a4f7.webflow.io/",
+    git: "",
+    stack: ["Webflow"],
+  },
+  {
+    title: "Product Designer Portfolio",
+    description:
+      "Multi-page portfolio website showcasing my product design knowledge with a contact and about pages. Respionsive and modern minimalistic Design with bold CTA buttons",
+    bgImage: "/work-9.png",
+    live: "http://omni-ui.webflow.io/",
+    git: "",
+    stack: ["Webflow"],
+  },
+  
 ];
 
 export const serviceData = [

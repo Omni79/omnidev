@@ -25,16 +25,16 @@ const Header = () => {
       {/* Left */}
       <div className='flex flex-col justify-start'>
         <h3 className='flex gap-2 font-semibold text-lg'>Omoyele Shedrach</h3>
-        <h1 className='mb-16 sm:mb-4'>— React Developer</h1>
+        <h1 className='mb-16 sm:mb-4'>— React/Nextjs and webflow Developer</h1>
         
         <p className='max-w-[500px] leading-relaxed mb-10'>
-          I’m a developer focused on MERN/Next.js based in Lagos, Nigeria. I enjoy building
+          I’m a developer focused on MERN/Next.js and Webflow. I enjoy building
           sites & apps. 
         </p>
 
         <p className='max-w-[500px] leading-relaxed mb-10'>
-          MongoDB | Express.js | React.js | Node.js | Next.js | Figma | Vercel |
-          Webflow
+          MERN | NextJS | Webflow | Tailwind CSS | Figma | Vercel |
+          Sanity
         </p>
 
         <a
