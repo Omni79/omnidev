@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = ({ isDarkMode }) => {
   return (
-    <div className='flex flex-col gap-12 lg:gap-4 justify-around w-full h-[120vh] lg:h-[100vh] px-[8%] sm:px-[16%] items-start py-10 scroll-mt-20'>
+    <div className='flex flex-col gap-12 lg:gap-4 justify-around w-full h-[120vh] lg:h-[100vh] px-4 sm:px-[16%] items-start py-10 scroll-mt-20'>
       <div className='flex flex-col gap-4 max-w-3xl leading-relaxed'>
         <p>
           I build clear, efficient, and visually engaging web applications with

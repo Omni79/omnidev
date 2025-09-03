@@ -79,45 +79,69 @@ export const assets = {
 export const workData = [
   {
     title: "CarRental",
-    description: "Web App/MERN",
+    description:
+      "Yesterday, I was selected as a junior backend developer without having a degree. I just passed high school, and I want to thank you because I've learned many things in web development from you. I have deep respect for you because you are changing people's lives. I know that even though you share all this amazing knowledge on YouTube for free, you may not be getting much in return, but one thing is for sure - God will reward you.",
     bgImage: "/work-1.png",
     live: "https://car-rental-ruby-three.vercel.app/",
     git: "https://github.com/Omni79/CarRental-fullstack.git",
+    stack: [
+      "ReactJS", "mongoDB", "NodeJS"
+    ]
   },
   {
     title: "QuickBlog",
-    description: "Web App/MERN",
+    description:
+      "Yesterday, I was selected as a junior backend developer without having a degree. I just passed high school, and I want to thank you because I've learned many things in web development from you. I have deep respect for you because you are changing people's lives. I know that even though you share all this amazing knowledge on YouTube for free, you may not be getting much in return, but one thing is for sure - God will reward you.",
     bgImage: "/work-2.png",
     live: "https://quick-blog-lac-beta.vercel.app/",
     git: "https://github.com/Omni79/QuickBlog.git",
+    stack: [
+      "ReactJS", "mongoDB", "NodeJS"
+    ]
   },
   {
     title: "Forever - E-commerce App",
-    description: "Web App/MERN",
+    description:
+      "Yesterday, I was selected as a junior backend developer without having a degree. I just passed high school, and I want to thank you because I've learned many things in web development from you. I have deep respect for you because you are changing people's lives. I know that even though you share all this amazing knowledge on YouTube for free, you may not be getting much in return, but one thing is for sure - God will reward you.",
     bgImage: "/work-3.png",
     live: "",
     git: "",
+    stack: [
+      "ReactJS", "mongoDB", "NodeJS"
+    ]
   },
   {
     title: "Morphs - Creative Company",
-    description: "Landing Page, Next.js",
+    description:
+      "Yesterday, I was selected as a junior backend developer without having a degree. I just passed high school, and I want to thank you because I've learned many things in web development from you. I have deep respect for you because you are changing people's lives. I know that even though you share all this amazing knowledge on YouTube for free, you may not be getting much in return, but one thing is for sure - God will reward you.",
     bgImage: "/work-4.png",
     live: "https://morphs.vercel.app/",
     git: "https://github.com/Omni79/Morphs.git",
+    stack: [
+      "ReactJS", "mongoDB", "NodeJS"
+    ]
   },
   {
     title: "Real Estate",
-    description: "Landing Page, Next.js",
+    description:
+      "Yesterday, I was selected as a junior backend developer without having a degree. I just passed high school, and I want to thank you because I've learned many things in web development from you. I have deep respect for you because you are changing people's lives. I know that even though you share all this amazing knowledge on YouTube for free, you may not be getting much in return, but one thing is for sure - God will reward you.",
     bgImage: "/work-5.png",
     live: "https://real-estate-rose-nu.vercel.app/",
     git: "https://github.com/Omni79/real-estate#",
+    stack: [
+      "ReactJS", "mongoDB", "NodeJS"
+    ]
   },
   {
     title: "SaaS Landing Page",
-    description: "Landing Page, Next.js",
+    description:
+      "Yesterday, I was selected as a junior backend developer without having a degree. I just passed high school, and I want to thank you because I've learned many things in web development from you. I have deep respect for you because you are changing people's lives. I know that even though you share all this amazing knowledge on YouTube for free, you may not be getting much in return, but one thing is for sure - God will reward you.s",
     bgImage: "/work-6.png",
     live: "",
     git: "",
+    stack: [
+      "ReactJS", "mongoDB", "NodeJS"
+    ]
   },
 ];
 
