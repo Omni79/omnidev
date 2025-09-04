@@ -15,10 +15,10 @@ const Work = () => {
         {workData.map((project, index) => (
           <Card
             key={index}
-            className='flex flex-col-reverse xl:flex-row justify-between gap-8 p-4 xl:p-8 bg-primary/10 border border-white/10 h-auto xl:h-[500px]'
+            className='flex flex-col-reverse xl:flex-row justify-between gap-8 bg-primary/10 border rounded-none border-white/10 h-auto xl:h-[500px]'
           >
             {/* Left Side - Text */}
-            <CardContent className='flex flex-col p-0 xl:pt-10 xl:w-[50%] justify-between'>
+            <CardContent className='flex flex-col xl:p-8 xl:pt-10 xl:w-[50%] justify-between'>
               <div>
                 <h2 className='text-2xl md:text-3xl font-semibold text-white/90'>
                   {project.title}
@@ -65,7 +65,7 @@ const Work = () => {
             {/* Right Side - Image */}
             <div className='relative w-full xl:w-[50%] h-64 xl:h-full'>
               <Image
-                className='object-cover rounded-lg'
+                className='object-cover'
                 src={project.bgImage}
                 alt={project.title}
                 fill
