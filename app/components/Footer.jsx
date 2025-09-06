@@ -35,16 +35,16 @@ const Footer = ({ isDarkMode }) => {
           Blog
           <div className='w-full h-[0.5px] bg-white'></div>
         </a>
-        <a href='' className='flex flex-col w-max gap-1 text-lg font-semibold'>
+        <a
+          href='/omoyele_seun_resume.pdf'
+          download=''
+          className='flex flex-col w-max gap-1 text-lg font-semibold'
+        >
           Resume
           <div className='w-full h-[0.5px] bg-white'></div>
         </a>
         <a href='' className='flex flex-col w-max gap-1 text-lg font-semibold'>
           Threads
-          <div className='w-full h-[0.5px] bg-white'></div>
-        </a>
-        <a href='' className='flex flex-col w-max gap-1 text-lg font-semibold'>
-          Elsewhere
           <div className='w-full h-[0.5px] bg-white'></div>
         </a>
       </div>
