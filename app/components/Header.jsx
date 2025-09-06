@@ -48,7 +48,7 @@ const Header = () => {
         </a>
         <div className='flex gap-4 mb-12'>
           <a
-            href=''
+            href='https://www.linkedin.com/in/omniframes/'
             target='_blank'
             rel='noopener noreferrer'
             className='border rounded-full  w-9 aspect-square flex items-center justify-center'
